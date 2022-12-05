@@ -1,0 +1,7 @@
+*{margin:0;padding: 0;}
+.container{width: 1170px;margin: 0 auto;}
+.first{border: 1px solid #ddd;padding: 40px 0;margin-top: 20px;}
+.first h1,.second h1{text-align: center;}
+.first p{padding: 30px 0 0 30px;font-size: 18px;}
+.js_example{width: 20%;float:left;margin-left: 30px;}
+.second {border: 1px solid #ddd;padding: 40px 0;margin-top: 20px;height: 400px;}

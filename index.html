@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work -08 javaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <div class="first">
+          <h1>Java Script - Freedom IT Institute</h1>
+           <p>01.&nbsp; &nbsp; Addition of two numbers  500 and 500 is: 
+            <script>
+                var salary1=500;
+                var salary2=500;
+                
+                document.write(salary1 + salary2);
+            </script>
+            
+            </p>
+            <p>02.&nbsp; &nbsp; Subtruction of 500 from 1500 is: 
+            <script>
+                var salary1=1500;
+                var salary2=500;
+                
+                document.write(salary1 - salary2);
+            </script>
+            
+            </p>
+            <p>03.&nbsp; &nbsp; Multiplication of 50 and 20 is: 
+            <script>
+                var salary1=1500;
+                var salary2=500;
+                
+                document.write(salary1 - salary2);
+            </script>
+            
+            </p>
+            <p>04.&nbsp; &nbsp; Division -> 20000 by 20 is: 
+            <script>
+                var salary1=20000;
+                var salary2=20;
+                
+                document.write(salary1/salary2);
+            </script>
+            
+            </p>
+            
+            
+        </div>
+        
+        <div class="second">
+            <h1>For Loop</h1>
+            <div class="js_example">
+            <p>Increment loop: <br>
+            <script>
+                for(fahim=5;fahim<=25;fahim++){
+                    document.write(fahim, '<br>');
+                }
+            </script>
+            </p>
+            </div>
+            <div class="js_example">
+            <p>Decrement loop: <br>
+            <script>
+                for(fahim=25;fahim>=5;fahim--){
+                    document.write(fahim, '<br>');
+                }
+            </script>
+            </p>
+            </div>
+        </div>
+        
+            <div class="second">
+            <h1>while Loop</h1>
+            <div class="js_example">
+            <p>Increment while loop: <br>
+            <script>
+                var fahim=21;
+                while(fahim<=35){
+                    document.write(fahim, '<br>');
+                    fahim++
+                }
+            </script>
+            </p>
+            </div>
+            <div class="js_example">
+            <p>Decrement while loop: <br>
+            <script>
+                fahim=50;
+                while(fahim>=41){
+                    document.write(fahim, '<br>');
+                    fahim--
+                }
+            </script>
+            </p>
+            </div>
+        </div>
+              <div class="second">
+            <h1>do while Loop</h1>
+            <div class="js_example">
+            <p>Increment do while loop: <br>
+            <script>
+                var fahim=21;
+                do{
+                    document.write(fahim, '<br>');
+                    fahim++
+                }while((fahim<=35))
+            </script>
+            </p>
+            </div>
+            <div class="js_example">
+            <p>Decrement do while loop: <br>
+            <script>
+                var fahim=60;
+                do{
+                    document.write(fahim, '<br>');
+                    fahim--
+                }while(fahim>=51)
+            </script>
+            </p>
+            </div>
+        </div>
+        
+        
+        <div class="second">
+            <h1>Odd and Even numbers</h1>
+            <div class="js_example">
+            <p>Odd Numbers from 51 to 90</p>
+            <script>
+               
+                var odd_number;
+                for(odd_number=51;odd_number<=90;odd_number++){
+                    if(odd_number%2==1){
+
+                        document.write(odd_number,'<br/>');
+                    }
+                }    
+            </script>
+            </div>
+            <div class="js_example">
+            <p>Even Numbers from 51 to 90</p>
+            <script>
+               
+                var even_number;
+                for(even_number=51;even_number<=90;even_number++){
+                    if(even_number%2==0){
+
+                        document.write(even_number,'<br/>');
+                    }
+                }    
+            </script>
+            </div>
+            
+        </div>
+        <div class="second">
+            <h1>Array from external js file</h1>
+            <div class="js_example">
+                <p>Array</p>
+                <p id="cml"></p>
+            </div>
+            <div class="js_example">
+            <p>Array</p>
+                <p id="bd"></p>
+            </div>
+            
+        </div>
+          <div class="second">
+            
+            <div class="js_example">
+                <script>
+                    document.write('<h1>Boolean</h1>');
+                    var age = 5;
+                    age>=6? document.write("Yes , Your child is eligible for admission in this scholl"):
+                    document.write("Sorry, Your child is not eligible for admission in this scholl");
+
+
+                    document.write('<br>');
+                    document.write('<h1>if.... else</h1>');
+
+
+                    var Age = 7;
+
+                    if(Age>=6){
+                        document.write("Yes , Your child is eligible for admission in this scholl");
+                    }else{
+                        document.write("Yes , Your child is not eligible for admission in this scholl");
+                    }
+
+                    document.write('<br>');
+                </script>
+            </div>
+            
+                <div class="js_example">
+                    <script>
+                        document.write('<h1>Function</h1>');
+                    function odd_number(){
+                        var x;
+                        for(x=1000; x<=1020; x++){
+                            if(x%2==1){
+                                document.write(x,'<br>');
+                            }
+                        }
+                    }
+                    odd_number();//function call
+                    </script>
+                </div>
+            
+            
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
